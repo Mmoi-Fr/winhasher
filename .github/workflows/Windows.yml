@@ -56,4 +56,4 @@ jobs:
       if: ${{ github.event_name != 'pull_request' }}
       with:
         path: "InnoSetup/bin/WinHasher_Setup.exe"
-        name: WinHasher_Setup
+        name: WinHasher_Setup-${{ matrix.dotnet-version }}

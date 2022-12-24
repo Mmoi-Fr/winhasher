@@ -2,7 +2,7 @@ name: .NET Application
 
 on:
   push:
-    branches: [ "master", "githubWflow" ]
+    branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
